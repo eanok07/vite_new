@@ -1,34 +1,4 @@
-// // src/components/Header.jsx
-// import React from 'react';
-// import { AppBar, Toolbar, Typography, IconButton, Box, Button } from '@mui/material';
-// import MenuIcon from '@mui/icons-material/Menu';
 
-// const Header = () => {
-//   return (
-//     <AppBar position="relative" color="default" sx={{ boxShadow: 1 }}>
-//       <Toolbar>
-//         <IconButton edge="start" color="inherit" sx={{ mr: 2 }}>
-//           <MenuIcon />
-//         </IconButton>
-//         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-//           Swiggy Clone
-//         </Typography>
-//         <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-//           <Button color="inherit">Home</Button>
-//           <Button color="inherit">Offers</Button>
-//           <Button color="inherit">Login</Button>
-//         </Box>
-//       </Toolbar>
-//     </AppBar>
-//   );
-// };
-
-// export default Header;
-
-
-
-// src/components/Header.jsx
-// src/components/Header.jsx
 import React from 'react';
 import { AppBar, Toolbar, Typography, IconButton, Box, Button } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -44,7 +14,7 @@ const Header = () => {
           <MenuIcon />
         </IconButton>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          Swiggy Clone
+          UI Clone
         </Typography>
         <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
           <Button color="inherit" onClick={() => navigate('/')}>

@@ -1,3 +1,5 @@
+// Vehicle Care Backend - Request Routes
+// API endpoints for service requests
 const router = require('express').Router();
 const { authenticate, authorizeRoles } = require('../middleware/authMiddleware');
 const controller = require('../controllers/requestController');

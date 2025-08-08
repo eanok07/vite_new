@@ -1,3 +1,5 @@
+// Vehicle Care Backend - Authentication Middleware
+// Handles JWT authentication and role authorization
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 

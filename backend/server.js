@@ -1,3 +1,6 @@
+// Vehicle Care Backend Server
+// Main entry point for Express API
+// See README.md for setup instructions
 const express = require('express');
 const dotenv = require('dotenv');
 const connectDB = require('./config/db');

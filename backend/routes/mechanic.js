@@ -1,3 +1,5 @@
+// Vehicle Care Backend - Mechanic Routes
+// API endpoints for mechanic dashboard and assigned requests
 const router = require('express').Router();
 const { authenticate, authorizeRoles } = require('../middleware/authMiddleware');
 const Request = require('../models/Request');

@@ -1,3 +1,5 @@
+// Vehicle Care Backend - User Routes
+// API endpoints for user profile and mechanics
 const router = require('express').Router();
 const User = require('../models/User');
 const { authenticate, authorizeRoles } = require('../middleware/authMiddleware');

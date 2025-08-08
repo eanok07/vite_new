@@ -1,3 +1,5 @@
+// Vehicle Care Backend - Request Controller
+// Handles service request creation, assignment, and tracking
 const Request = require('../models/Request');
 const User = require('../models/User');
 

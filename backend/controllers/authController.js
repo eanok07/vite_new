@@ -1,3 +1,5 @@
+// Vehicle Care Backend - Auth Controller
+// Handles user registration and login
 const User = require('../models/User');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');

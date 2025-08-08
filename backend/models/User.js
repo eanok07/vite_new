@@ -1,3 +1,5 @@
+// Vehicle Care Backend - User Model
+// Defines user schema for MongoDB
 const { Schema, model } = require('mongoose');
 
 const UserSchema = new Schema({

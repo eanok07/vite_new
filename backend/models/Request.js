@@ -1,3 +1,5 @@
+// Vehicle Care Backend - Request Model
+// Defines service request schema for MongoDB
 const { model, Types } = require('mongoose');
 const mongoose = require('mongoose');
 

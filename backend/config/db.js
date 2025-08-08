@@ -1,3 +1,5 @@
+// Vehicle Care Backend - Database Connection
+// Handles MongoDB connection using Mongoose
 const mongoose = require('mongoose');
 
 const connectDB = async () => {
